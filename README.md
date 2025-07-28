@@ -12,7 +12,13 @@ Extract fields from single PDF:
 ```bash
 node extract/extract-fields.js my-file.pdf
 ```
-This will output a JSON file to fieldmaps/my-file.json
+This will output a single JSON file to fieldmaps/my-file.json
+
+Extract fields from all PDFs in pdfs/original:
+```bash
+node extract/extract-fields.js --all
+```
+This will output JSON files corresponding with the PDFs you place in pdfs/original.
 
 ## Setup 
 ```bash
