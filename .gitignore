@@ -1,3 +1,5 @@
 node_modules/
 *.pdf
 *.log
+fieldmaps/*
+!fieldmaps/.keep
